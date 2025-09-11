@@ -1,0 +1,1149 @@
+<snippet lineStart=1 lineEnd=331 totalLineCount=331>
+// Translations for all supported Indian languages
+export const translations = {
+  en: {
+    // App Header
+    appName: 'AgriWise',
+    welcome: 'Welcome back',
+    farmer: 'Farmer',
+    subtitle: 'Get AI-powered crop price guidance and weather insights',
+    
+    // Price Guidance
+    priceGuidance: 'Get Price Guidance',
+    priceSubtitle: 'Enter your crop details to get AI-powered market price estimates',
+    cropType: 'Crop Type',
+    selectCrop: 'Select your crop',
+    location: 'Location',
+    locationPlaceholder: 'e.g. Pune, Maharashtra',
+    expectedYield: 'Expected Yield',
+    yieldPlaceholder: 'e.g. 1000',
+    areaUnit: 'Area Unit',
+    getPriceGuidance: 'Get Price Guidance',
+    gettingPriceGuidance: 'Getting Price Guidance...',
+    
+    // Weather
+    weatherForecast: 'Weather Forecast',
+    getWeather: 'Get Weather',
+    currentWeather: 'Current Weather',
+    temperature: 'Temperature',
+    humidity: 'Humidity',
+    windSpeed: 'Wind Speed',
+    pressure: 'Pressure',
+    weatherAlerts: 'Agricultural Weather Alerts',
+    temperatureTrend: '7-Day Temperature Trend',
+    rainfallForecast: '7-Day Rainfall Forecast',
+    detailedForecast: '7-Day Detailed Forecast',
+    
+    // Soil Health
+    soilHealth: 'Soil Health Analysis',
+    soilPH: 'Soil pH Level',
+    soilMoisture: 'Soil Moisture',
+    soilNutrients: 'Nutrient Levels',
+    soilRecommendations: 'Soil Recommendations',
+    
+    // Crops
+    rice: 'Rice',
+    wheat: 'Wheat',
+    cotton: 'Cotton',
+    jute: 'Jute',
+    maize: 'Maize',
+    sugarcane: 'Sugarcane',
+    millets: 'Millets',
+    oilseeds: 'Oilseeds',
+    
+    // Units and General
+    kg: 'kg',
+    ton: 'ton',
+    acre: 'acre',
+    hectare: 'hectare',
+    fillAllFields: 'Please fill in all required fields',
+    error: 'Error',
+    success: 'Success',
+    loading: 'Loading...',
+    dataSource: 'Data source',
+    language: 'Language',
+    updated: 'Updated',
+    rainfall: 'Rainfall',
+    rainChance: 'Rain Chance',
+    affectedCrops: 'Affected crops'
+  },
+  
+  hi: {
+    // App Header
+    appName: 'कृषि बुद्धि',
+    welcome: 'वापसी पर स्वागत',
+    farmer: 'किसान',
+    subtitle: 'AI-संचालित फसल मूल्य मार्गदर्शन और मौसम जानकारी प्राप्त करें',
+    
+    // Price Guidance
+    priceGuidance: 'मूल्य मार्गदर्शन प्राप्त करें',
+    priceSubtitle: 'AI-संचालित बाजार मूल्य अनुमान के लिए अपनी फसल की जानकारी दर्ज करें',
+    cropType: 'फसल का प्रकार',
+    selectCrop: 'अपनी फसल चुनें',
+    location: 'स्थान',
+    locationPlaceholder: 'जैसे पुणे, महाराष्ट्र',
+    expectedYield: 'अपेक्षित उत्पादन',
+    yieldPlaceholder: 'जैसे 1000',
+    areaUnit: 'क्षेत्र इकाई',
+    getPriceGuidance: 'मूल्य मार्गदर्शन प्राप्त करें',
+    gettingPriceGuidance: 'मूल्य मार्गदर्शन प्राप्त कर रहे हैं...',
+    
+    // Weather
+    weatherForecast: 'मौसम पूर्वानुमान',
+    getWeather: 'मौसम प्राप्त करें',
+    currentWeather: 'वर्तमान मौसम',
+    temperature: 'तापमान',
+    humidity: 'आर्द्रता',
+    windSpeed: 'हवा की गति',
+    pressure: 'दबाव',
+    weatherAlerts: 'कृषि मौसम चेतावनी',
+    temperatureTrend: '7-दिन तापमान प्रवृत्ति',
+    rainfallForecast: '7-दिन वर्षा पूर्वानुमान',
+    detailedForecast: '7-दिन विस्तृत पूर्वानुमान',
+    
+    // Soil Health
+    soilHealth: 'मिट्टी स्वास्थ्य विश्लेषण',
+    soilPH: 'मिट्टी pH स्तर',
+    soilMoisture: 'मिट्टी की नमी',
+    soilNutrients: 'पोषक तत्व स्तर',
+    soilRecommendations: 'मिट्टी सिफारिशें',
+    
+    // Crops
+    rice: 'चावल',
+    wheat: 'गेहूं',
+    cotton: 'कपास',
+    jute: 'जूट',
+    maize: 'मक्का',
+    sugarcane: 'गन्ना',
+    millets: 'बाजरा',
+    oilseeds: 'तिलहन',
+    
+    // Units and General
+    kg: 'किग्रा',
+    ton: 'टन',
+    acre: 'एकड़',
+    hectare: 'हेक्टेयर',
+    fillAllFields: 'कृपया सभी आवश्यक फ़ील्ड भरें',
+    error: 'त्रुटि',
+    success: 'सफलता',
+    loading: 'लोड हो रहा है...',
+    dataSource: 'डेटा स्रोत',
+    language: 'भाषा',
+    updated: 'अपडेट किया गया',
+    rainfall: 'वर्षा',
+    rainChance: 'बारिश की संभावना',
+    affectedCrops: 'प्रभावित फसलें'
+  },
+  
+  ta: {
+    // App Header
+    appName: 'விவசாய ஞானம்',
+    welcome: 'திரும்ப வரவேற்கிறோம்',
+    farmer: 'விவசாயி',
+    subtitle: 'AI-இயங்கும் பயிர் விலை வழிகாட்டுதல் மற்றும் வானிலை நுண்ணறிவுகளைப் பெறுங்கள்',
+    
+    // Price Guidance
+    priceGuidance: 'விலை வழிகாட்டுதலைப் பெறுங்கள்',
+    priceSubtitle: 'AI-இயங்கும் சந்தை விலை மதிப்பீடுகளுக்கு உங்கள் பயிர் விவரங்களை உள்ளிடவும்',
+    cropType: 'பயிர் வகை',
+    selectCrop: 'உங்கள் பயிரைத் தேர்ந்தெடுக்கவும்',
+    location: 'இடம்',
+    locationPlaceholder: 'எ.கா. புனே, மகாராஷ்டிரா',
+    expectedYield: 'எதிர்பார்க்கப்படும் விளைச்சல்',
+    yieldPlaceholder: 'எ.கா. 1000',
+    areaUnit: 'பகுதி அலகு',
+    getPriceGuidance: 'விலை வழிகாட்டுதலைப் பெறுங்கள்',
+    gettingPriceGuidance: 'விலை வழிகாட்டுதலைப் பெறுகிறது...',
+    
+    // Weather
+    weatherForecast: 'வானிலை முன்னறிவிப்பு',
+    getWeather: 'வானிலையைப் பெறுங்கள்',
+    currentWeather: 'தற்போதைய வானிலை',
+    temperature: 'வெப்பநிலை',
+    humidity: 'ஈரப்பதம்',
+    windSpeed: 'காற்றின் வேகம்',
+    pressure: 'அழுத்தம்',
+    weatherAlerts: 'விவசாய வானிலை எச்சரிக்கைகள்',
+    temperatureTrend: '7-நாள் வெப்பநிலை போக்கு',
+    rainfallForecast: '7-நாள் மழைப்பொழிவு முன்னறிவிப்பு',
+    detailedForecast: '7-நாள் விரிவான முன்னறிவிப்பு',
+    
+    // Soil Health
+    soilHealth: 'மண் சுகாதார பகுப்பாய்வு',
+    soilPH: 'மண் pH நிலை',
+    soilMoisture: 'மண் ஈரப்பதம்',
+    soilNutrients: 'ஊட்டச்சத்து நிலைகள்',
+    soilRecommendations: 'மண் பரிந்துரைகள்',
+    
+    // Crops
+    rice: 'அரிசி',
+    wheat: 'கோதுமை',
+    cotton: 'பருத்தி',
+    jute: 'சணல்',
+    maize: 'சோளம்',
+    sugarcane: 'கரும்பு',
+    millets: 'தினை',
+    oilseeds: 'எண்ணெய் விதைகள்',
+    
+    // Units and General
+    kg: 'கிலோ',
+    ton: 'டன்',
+    acre: 'ஏக்கர்',
+    hectare: 'ஹெக்டேர்',
+    fillAllFields: 'தயவுசெய்து அனைத்து தேவையான புலங்களையும் நிரப்பவும்',
+    error: 'பிழை',
+    success: 'வெற்றி',
+    loading: 'ஏற்றுகிறது...',
+    dataSource: 'தரவு ஆதாரம்',
+    language: 'மொழி',
+    updated: 'புதுப்பிக்கப்பட்டது',
+    rainfall: 'மழைப்பொழிவு',
+    rainChance: 'மழை வாய்ப்பு',
+    affectedCrops: 'பாதிக்கப்பட்ட பயிர்கள்'
+  },
+  
+  te: {
+    // App Header
+    appName: 'కృషి జ్ఞానం',
+    welcome: 'తిరిగి స్వాగతం',
+    farmer: 'రైతు',
+    subtitle: 'AI-శక్తితో కూడిన పంట ధర మార్గదర్శకత్వం మరియు వాతావరణ అంతర్దృష్టులను పొందండి',
+    
+    // Price Guidance
+    priceGuidance: 'ధర మార్గదర్శకత్వం పొందండి',
+    priceSubtitle: 'AI-శక్తితో కూడిన మార్కెట్ ధర అంచనాల కోసం మీ పంట వివరాలను నమోదు చేయండి',
+    cropType: 'పంట రకం',
+    selectCrop: 'మీ పంటను ఎంచుకోండి',
+    location: 'స్థానం',
+    locationPlaceholder: 'ఉదా. పూణె, మహారాష్ట్ర',
+    expectedYield: 'ఆశించిన దిగుబడి',
+    yieldPlaceholder: 'ఉదా. 1000',
+    areaUnit: 'ప్రాంత యూనిట్',
+    getPriceGuidance: 'ధర మార్గదర్శకత్వం పొందండి',
+    gettingPriceGuidance: 'ధర మార్గదర్శకత్వం పొందుతోంది...',
+    
+    // Weather
+    weatherForecast: 'వాతావరణ సూచన',
+    getWeather: 'వాతావరణం పొందండి',
+    currentWeather: 'ప్రస్తుత వాతావరణం',
+    temperature: 'ఉష్ణోగ్రత',
+    humidity: 'తేమ',
+    windSpeed: 'గాలి వేగం',
+    pressure: 'ఒత్తిడి',
+    weatherAlerts: 'వ్యవసాయ వాతావరణ హెచ్చరికలు',
+    temperatureTrend: '7-రోజుల ఉష్ణోగ్రత ట్రెండ్',
+    rainfallForecast: '7-రోజుల వర్షపాతం సూచన',
+    detailedForecast: '7-రోజుల వివరణాత్మక సూచన',
+    
+    // Soil Health
+    soilHealth: 'మట్టి ఆరోగ్య విశ్లేషణ',
+    soilPH: 'మట్టి pH స్థాయి',
+    soilMoisture: 'మట్టి తేమ',
+    soilNutrients: 'పోషక స్థాయిలు',
+    soilRecommendations: 'మట్టి సిఫార్సులు',
+    
+    // Crops
+    rice: 'వరి',
+    wheat: 'గోధుమ',
+    cotton: 'పత్తి',
+    jute: 'జనపనార',
+    maize: 'మొక్కజొన్న',
+    sugarcane: 'చెరకు',
+    millets: 'రాగులు',
+    oilseeds: 'నూనె గింజలు',
+    
+    // Units and General
+    kg: 'కిలో',
+    ton: 'టన్ను',
+    acre: 'ఎకరం',
+    hectare: 'హెక్టారు',
+    fillAllFields: 'దయచేసి అన్ని అవసరమైన ఫీల్డులను నింపండి',
+    error: 'లోపం',
+    success: 'విజయం',
+    loading: 'లోడ్ అవుతోంది...',
+    dataSource: 'డేటా మూలం',
+    language: 'భాష',
+    updated: 'నవీకరించబడింది',
+    rainfall: 'వర్షపాతం',
+    rainChance: 'వర్షం అవకాశం',
+    affectedCrops: 'ప్రభావిత పంటలు'
+  },
+  
+  // Add more languages as needed
+  mr: {
+    // Marathi translations
+    appName: 'शेती बुद्धी',
+    welcome: 'परत स्वागत',
+    farmer: 'शेतकरी',
+    // ... continue with Marathi translations
+  },
+  
+  kn: {
+    // Kannada translations
+    appName: 'ಕೃಷಿ ಬುದ್ಧಿ',
+    welcome: 'ಮತ್ತೆ ಸ್ವಾಗತ',
+    farmer: 'ರೈತ',
+    // ... continue with Kannada translations
+  },
+  
+  bho: {
+    // Bhojpuri translations
+    appName: 'खेती बुद्धि',
+    welcome: 'फिर से स्वागत',
+    farmer: 'किसान',
+    // ... continue with Bhojpuri translations
+  },
+  
+  pa: {
+    // Punjabi translations
+    appName: 'ਖੇਤੀ ਬੁੱਧੀ',
+    welcome: 'ਮੁੜ ਸਵਾਗਤ',
+    farmer: 'ਕਿਸਾਨ',
+    // ... continue with Punjabi translations
+  },
+  
+  or: {
+    // Odia translations
+    appName: 'କୃଷି ବୁଦ୍ଧି',
+    welcome: 'ପୁନର୍ବାର ସ୍ୱାଗତ',
+    farmer: 'କୃଷକ',
+    // ... continue with Odia translations
+  }
+};
+
+// Helper function to get translated text
+export const getTranslation = (language: string, key: string): string => {
+  const langTranslations = translations[language as keyof typeof translations];
+  if (langTranslations && langTranslations[key as keyof typeof langTranslations]) {
+    return langTranslations[key as keyof typeof langTranslations];
+  }
+  // Fallback to English if translation not found
+  return translations.en[key as keyof typeof translations.en] || key;
+};
+
+// Hook to use translations
+export const useTranslation = (language: string) => {
+  return {
+    t: (key: string) => getTranslation(language, key)
+  };
+};
+
+export default translations;
+
+<snippet lineStart=1 lineEnd=23 totalLineCount=23>
+import { create } from 'zustand';
+
+interface LanguageState {
+  language: string;
+  setLanguage: (language: string) => void;
+}
+
+export const useLanguageStore = create<LanguageState>((set) => ({
+  language: 'en', // Default to English
+  setLanguage: (language: string) => set({ language }),
+}));
+
+// Export individual functions for easier access
+export const useLanguage = () => {
+  const { language } = useLanguageStore();
+  return { language };
+};
+
+export const useSetLanguage = () => {
+  const { setLanguage } = useLanguageStore();
+  return { setLanguage };
+};
+
+<snippet lineStart=1 lineEnd=295 totalLineCount=295>
+
+import React, { useState } from 'react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import { Cloud, CloudRain, Sun, Wind, Thermometer, Droplets, Eye, Gauge, AlertTriangle, CheckCircle } from 'lucide-react';
+import { useTranslation } from 'utils/translations';
+import brain from 'brain';
+import type { WeatherForecastResponse } from 'types';
+
+export interface Props {
+  language: string;
+  location?: string;
+}
+
+const WeatherForecast: React.FC<Props> = ({ language, location }) => {
+  const { t } = useTranslation(language);
+  const [weatherData, setWeatherData] = useState<WeatherForecastResponse | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const fetchWeather = async () => {
+    if (!location) {
+      setError(t('fillAllFields'));
+      return;
+    }
+
+    setLoading(true);
+    setError(null);
+
+    try {
+      const response = await brain.get_localized_weather_forecast({
+        location,
+        language,
+        include_soil_recommendations: true
+      });
+      
+      const data: WeatherForecastResponse = await response.json();
+      setWeatherData(data);
+    } catch (err) {
+      console.error('Weather fetch error:', err);
+      setError(t('error'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const getWeatherIcon = (condition: string) => {
+    const iconProps = { className: "h-8 w-8" };
+    switch (condition.toLowerCase()) {
+      case 'clear':
+      case 'sunny':
+        return <Sun {...iconProps} className="h-8 w-8 text-yellow-500" />;
+      case 'rain':
+      case 'rainy':
+        return <CloudRain {...iconProps} className="h-8 w-8 text-blue-500" />;
+      case 'cloudy':
+      case 'overcast':
+        return <Cloud {...iconProps} className="h-8 w-8 text-gray-500" />;
+      default:
+        return <Cloud {...iconProps} className="h-8 w-8 text-gray-500" />;
+    }
+  };
+
+  const formatTemperature = (temp: number) => `${Math.round(temp)}°C`;
+  const formatPercentage = (value: number) => `${Math.round(value)}%`;
+  const formatSpeed = (speed: number) => `${Math.round(speed)} km/h`;
+  const formatPressure = (pressure: number) => `${Math.round(pressure)} hPa`;
+
+  return (
+    <div className="space-y-6">
+      {/* Weather Input */}
+      <Card className="border-blue-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+        <CardHeader className="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-t-2xl">
+          <CardTitle className="flex items-center gap-2 text-blue-900">
+            <Cloud className="h-5 w-5" />
+            {t('weatherForecast')}
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="p-6">
+          <div className="flex gap-4">
+            <Button 
+              onClick={fetchWeather}
+              disabled={loading || !location}
+              className="bg-blue-600 hover:bg-blue-700"
+            >
+              {loading ? t('loading') : t('getWeather')}
+            </Button>
+            {location && (
+              <p className="text-sm text-gray-600 flex items-center">
+                {t('location')}: {location}
+              </p>
+            )}
+          </div>
+          {error && (
+            <Alert className="mt-4">
+              <AlertTriangle className="h-4 w-4" />
+              <AlertTitle>{t('error')}</AlertTitle>
+              <AlertDescription>{error}</AlertDescription>
+            </Alert>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* Weather Results */}
+      {weatherData && (
+        <div className="space-y-6">
+          {/* Current Weather */}
+          <Card className="border-blue-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+            <CardHeader>
+              <CardTitle className="text-blue-900">{t('currentWeather')}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                {/* Temperature */}
+                <div className="flex items-center gap-3 p-4 border rounded-lg bg-orange-50">
+                  <Thermometer className="h-8 w-8 text-orange-500" />
+                  <div>
+                    <p className="text-sm text-gray-600">{t('temperature')}</p>
+                    <p className="text-2xl font-bold text-orange-600">
+                      {formatTemperature(weatherData.current.temperature)}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Humidity */}
+                <div className="flex items-center gap-3 p-4 border rounded-lg bg-blue-50">
+                  <Droplets className="h-8 w-8 text-blue-500" />
+                  <div>
+                    <p className="text-sm text-gray-600">{t('humidity')}</p>
+                    <p className="text-2xl font-bold text-blue-600">
+                      {formatPercentage(weatherData.current.humidity)}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Wind Speed */}
+                <div className="flex items-center gap-3 p-4 border rounded-lg bg-green-50">
+                  <Wind className="h-8 w-8 text-green-500" />
+                  <div>
+                    <p className="text-sm text-gray-600">{t('windSpeed')}</p>
+                    <p className="text-2xl font-bold text-green-600">
+                      {formatSpeed(weatherData.current.wind_speed)}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Pressure */}
+                <div className="flex items-center gap-3 p-4 border rounded-lg bg-purple-50">
+                  <Gauge className="h-8 w-8 text-purple-500" />
+                  <div>
+                    <p className="text-sm text-gray-600">{t('pressure')}</p>
+                    <p className="text-2xl font-bold text-purple-600">
+                      {formatPressure(weatherData.current.pressure)}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Current Condition */}
+              <div className="mt-6 flex items-center justify-center gap-4 p-6 border rounded-lg bg-gradient-to-r from-blue-50 to-cyan-50">
+                {getWeatherIcon(weatherData.current.condition)}
+                <div className="text-center">
+                  <p className="text-lg font-semibold text-blue-900">
+                    {weatherData.current.description}
+                  </p>
+                  <p className="text-sm text-blue-700">
+                    {t('updated')}: {new Date(weatherData.current.timestamp).toLocaleString()}
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Agricultural Alerts */}
+          {weatherData.agricultural_alerts && weatherData.agricultural_alerts.length > 0 && (
+            <Card className="border-yellow-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-yellow-900">
+                  <AlertTriangle className="h-5 w-5" />
+                  {t('weatherAlerts')}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="p-6">
+                <div className="space-y-3">
+                  {weatherData.agricultural_alerts.map((alert, index) => (
+                    <Alert key={index} className="border-yellow-300 bg-yellow-50">
+                      <AlertTriangle className="h-4 w-4" />
+                      <AlertTitle>{alert.type}</AlertTitle>
+                      <AlertDescription className="mt-2">
+                        {alert.message}
+                        {alert.affected_crops && (
+                          <div className="mt-2">
+                            <span className="font-semibold">{t('affectedCrops')}: </span>
+                            <span>{alert.affected_crops.join(', ')}</span>
+                          </div>
+                        )}
+                      </AlertDescription>
+                    </Alert>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {/* Temperature Trend Chart */}
+          <Card className="border-blue-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+            <CardHeader>
+              <CardTitle className="text-blue-900">{t('temperatureTrend')}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <ResponsiveContainer width="100%" height={300}>
+                <LineChart data={weatherData.forecast}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="date" />
+                  <YAxis />
+                  <Tooltip />
+                  <Legend />
+                  <Line type="monotone" dataKey="max_temp" stroke="#f59e0b" name={`Max ${t('temperature')}`} />
+                  <Line type="monotone" dataKey="min_temp" stroke="#3b82f6" name={`Min ${t('temperature')}`} />
+                </LineChart>
+              </ResponsiveContainer>
+            </CardContent>
+          </Card>
+
+          {/* Rainfall Forecast */}
+          <Card className="border-blue-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+            <CardHeader>
+              <CardTitle className="text-blue-900">{t('rainfallForecast')}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart data={weatherData.forecast}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="date" />
+                  <YAxis />
+                  <Tooltip />
+                  <Legend />
+                  <Bar dataKey="rainfall" fill="#3b82f6" name={t('rainfall')} />
+                  <Bar dataKey="rain_chance" fill="#06b6d4" name={t('rainChance')} />
+                </BarChart>
+              </ResponsiveContainer>
+            </CardContent>
+          </Card>
+
+          {/* Detailed 7-Day Forecast */}
+          <Card className="border-blue-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+            <CardHeader>
+              <CardTitle className="text-blue-900">{t('detailedForecast')}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid gap-4">
+                {weatherData.forecast.map((day, index) => (
+                  <div key={index} className="flex items-center justify-between p-4 border rounded-lg hover:bg-blue-50 transition-colors">
+                    <div className="flex items-center gap-4">
+                      {getWeatherIcon(day.condition)}
+                      <div>
+                        <p className="font-semibold">{day.date}</p>
+                        <p className="text-sm text-gray-600">{day.description}</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-6 text-sm">
+                      <div className="text-center">
+                        <p className="text-orange-600 font-bold">{formatTemperature(day.max_temp)}</p>
+                        <p className="text-blue-600">{formatTemperature(day.min_temp)}</p>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-blue-600 font-bold">{formatPercentage(day.rain_chance)}</p>
+                        <p className="text-xs text-gray-500">{t('rainChance')}</p>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-green-600 font-bold">{formatSpeed(day.wind_speed)}</p>
+                        <p className="text-xs text-gray-500">{t('windSpeed')}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Data Source */}
+          <div className="text-center text-xs text-gray-500">
+            {t('dataSource')}: Open-Meteo API | {t('updated')}: {new Date().toLocaleString()}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default WeatherForecast;
+<snippet lineStart=1 lineEnd=422 totalLineCount=422>
+import React, { useState } from 'react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Badge } from '@/components/ui/badge';
+import { Progress } from '@/components/ui/progress';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Separator } from '@/components/ui/separator';
+import { 
+  Droplets, 
+  Thermometer, 
+  Zap, 
+  Leaf, 
+  AlertCircle, 
+  CheckCircle, 
+  TrendingUp,
+  TrendingDown,
+  Minus
+} from 'lucide-react';
+import { useTranslation } from 'utils/translations';
+
+export interface Props {
+  language: string;
+  location?: string;
+}
+
+interface SoilData {
+  ph_level: number;
+  ph_status: 'acidic' | 'neutral' | 'alkaline';
+  moisture_level: number;
+  moisture_status: 'dry' | 'optimal' | 'wet';
+  organic_matter: number;
+  nitrogen: number;
+  phosphorus: number;
+  potassium: number;
+  temperature: number;
+  conductivity: number;
+  recommendations: string[];
+  suitable_crops: string[];
+  last_updated: string;
+}
+
+const SoilHealthMonitor: React.FC<Props> = ({ language, location }) => {
+  const { t } = useTranslation(language);
+  const [soilData, setSoilData] = useState<SoilData | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [manualInput, setManualInput] = useState({
+    ph: '',
+    moisture: '',
+    temperature: '',
+    nitrogen: '',
+    phosphorus: '',
+    potassium: ''
+  });
+
+  // Simulate soil sensor data (in real implementation, this would come from IoT sensors)
+  const generateMockSoilData = (inputData?: any): SoilData => {
+    const ph = inputData?.ph ? parseFloat(inputData.ph) : (6.5 + Math.random() * 1.5);
+    const moisture = inputData?.moisture ? parseFloat(inputData.moisture) : (40 + Math.random() * 40);
+    
+    return {
+      ph_level: ph,
+      ph_status: ph < 6.0 ? 'acidic' : ph > 7.5 ? 'alkaline' : 'neutral',
+      moisture_level: moisture,
+      moisture_status: moisture < 30 ? 'dry' : moisture > 70 ? 'wet' : 'optimal',
+      organic_matter: 2.5 + Math.random() * 2,
+      nitrogen: inputData?.nitrogen ? parseFloat(inputData.nitrogen) : (20 + Math.random() * 30),
+      phosphorus: inputData?.phosphorus ? parseFloat(inputData.phosphorus) : (15 + Math.random() * 25),
+      potassium: inputData?.potassium ? parseFloat(inputData.potassium) : (150 + Math.random() * 100),
+      temperature: inputData?.temperature ? parseFloat(inputData.temperature) : (25 + Math.random() * 10),
+      conductivity: 1.2 + Math.random() * 0.8,
+      recommendations: generateRecommendations(ph, moisture),
+      suitable_crops: getSuitableCrops(ph, moisture),
+      last_updated: new Date().toISOString()
+    };
+  };
+
+  const generateRecommendations = (ph: number, moisture: number): string[] => {
+    const recommendations = [];
+    
+    if (ph < 6.0) {
+      recommendations.push('Apply lime to increase soil pH');
+      recommendations.push('Add organic compost to buffer acidity');
+    } else if (ph > 7.5) {
+      recommendations.push('Apply sulfur or organic matter to reduce pH');
+      recommendations.push('Use acid-forming fertilizers');
+    }
+    
+    if (moisture < 30) {
+      recommendations.push('Increase irrigation frequency');
+      recommendations.push('Apply mulch to retain moisture');
+    } else if (moisture > 70) {
+      recommendations.push('Improve drainage systems');
+      recommendations.push('Reduce irrigation frequency');
+    }
+    
+    recommendations.push('Regular soil testing every 3 months');
+    recommendations.push('Apply balanced NPK fertilizer based on crop needs');
+    
+    return recommendations;
+  };
+
+  const getSuitableCrops = (ph: number, moisture: number): string[] => {
+    const crops = [];
+    
+    if (ph >= 6.0 && ph <= 7.0 && moisture >= 40 && moisture <= 60) {
+      crops.push('Rice', 'Wheat', 'Cotton');
+    }
+    if (ph >= 6.5 && ph <= 7.5) {
+      crops.push('Maize', 'Sugarcane');
+    }
+    if (ph >= 5.5 && ph <= 6.5) {
+      crops.push('Millets', 'Oilseeds');
+    }
+    if (moisture >= 30 && moisture <= 50) {
+      crops.push('Jute');
+    }
+    
+    return crops.length > 0 ? crops : ['Contact agricultural expert for specific recommendations'];
+  };
+
+  const handleManualAnalysis = () => {
+    setLoading(true);
+    
+    // Simulate processing time
+    setTimeout(() => {
+      const data = generateMockSoilData(manualInput);
+      setSoilData(data);
+      setLoading(false);
+    }, 1500);
+  };
+
+  const handleSensorAnalysis = () => {
+    setLoading(true);
+    
+    // Simulate sensor data retrieval
+    setTimeout(() => {
+      const data = generateMockSoilData();
+      setSoilData(data);
+      setLoading(false);
+    }, 2000);
+  };
+
+  const getPHColor = (ph: number) => {
+    if (ph < 6.0) return 'text-red-600';
+    if (ph > 7.5) return 'text-blue-600';
+    return 'text-green-600';
+  };
+
+  const getMoistureColor = (moisture: number) => {
+    if (moisture < 30) return 'text-red-600';
+    if (moisture > 70) return 'text-blue-600';
+    return 'text-green-600';
+  };
+
+  const getNutrientStatus = (value: number, optimal: { min: number; max: number }) => {
+    if (value < optimal.min) return { status: 'low', icon: TrendingDown, color: 'text-red-600' };
+    if (value > optimal.max) return { status: 'high', icon: TrendingUp, color: 'text-blue-600' };
+    return { status: 'optimal', icon: Minus, color: 'text-green-600' };
+  };
+
+  return (
+    <div className="space-y-6">
+      {/* Soil Health Input */}
+      <Card className="border-emerald-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+        <CardHeader className="bg-gradient-to-r from-emerald-100 to-green-100 rounded-t-2xl">
+          <CardTitle className="flex items-center gap-2 text-emerald-900">
+            <Leaf className="h-5 w-5" />
+            {t('soilHealth')}
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="p-6">
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Manual Input */}
+            <div className="space-y-4">
+              <h3 className="font-semibold text-emerald-800">Manual Input</h3>
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <Label htmlFor="ph" className="text-sm">{t('soilPH')}</Label>
+                  <Input
+                    id="ph"
+                    type="number"
+                    placeholder="6.5"
+                    value={manualInput.ph}
+                    onChange={(e) => setManualInput({...manualInput, ph: e.target.value})}
+                    className="h-9"
+                    min="0"
+                    max="14"
+                    step="0.1"
+                  />
+                </div>
+                <div>
+                  <Label htmlFor="moisture" className="text-sm">{t('soilMoisture')} (%)</Label>
+                  <Input
+                    id="moisture"
+                    type="number"
+                    placeholder="45"
+                    value={manualInput.moisture}
+                    onChange={(e) => setManualInput({...manualInput, moisture: e.target.value})}
+                    className="h-9"
+                    min="0"
+                    max="100"
+                  />
+                </div>
+                <div>
+                  <Label htmlFor="nitrogen" className="text-sm">Nitrogen (ppm)</Label>
+                  <Input
+                    id="nitrogen"
+                    type="number"
+                    placeholder="25"
+                    value={manualInput.nitrogen}
+                    onChange={(e) => setManualInput({...manualInput, nitrogen: e.target.value})}
+                    className="h-9"
+                  />
+                </div>
+                <div>
+                  <Label htmlFor="phosphorus" className="text-sm">Phosphorus (ppm)</Label>
+                  <Input
+                    id="phosphorus"
+                    type="number"
+                    placeholder="20"
+                    value={manualInput.phosphorus}
+                    onChange={(e) => setManualInput({...manualInput, phosphorus: e.target.value})}
+                    className="h-9"
+                  />
+                </div>
+              </div>
+              <Button 
+                onClick={handleManualAnalysis}
+                disabled={loading}
+                className="w-full bg-emerald-600 hover:bg-emerald-700"
+              >
+                {loading ? 'Analyzing...' : 'Analyze Soil'}
+              </Button>
+            </div>
+
+            {/* Sensor Integration */}
+            <div className="space-y-4">
+              <h3 className="font-semibold text-emerald-800">Sensor Integration</h3>
+              <div className="p-4 border border-emerald-200 rounded-lg bg-emerald-50">
+                <div className="flex items-center gap-2 mb-2">
+                  <Zap className="h-4 w-4 text-emerald-600" />
+                  <span className="text-sm font-medium">IoT Sensors</span>
+                </div>
+                <p className="text-sm text-emerald-700 mb-4">
+                  Connect your field sensors for real-time soil monitoring
+                </p>
+                <Button 
+                  onClick={handleSensorAnalysis}
+                  disabled={loading}
+                  variant="outline"
+                  className="w-full border-emerald-300 text-emerald-700 hover:bg-emerald-100"
+                >
+                  {loading ? 'Fetching Sensor Data...' : 'Get Sensor Data'}
+                </Button>
+              </div>
+              {location && (
+                <p className="text-xs text-gray-600">
+                  Location: {location}
+                </p>
+              )}
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Soil Analysis Results */}
+      {soilData && (
+        <div className="space-y-6">
+          {/* Key Metrics */}
+          <Card className="border-emerald-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+            <CardHeader>
+              <CardTitle className="text-emerald-900">Soil Analysis Results</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid md:grid-cols-4 gap-4">
+                {/* pH Level */}
+                <div className="text-center p-4 border rounded-lg">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <Droplets className="h-5 w-5 text-blue-500" />
+                    <span className="font-medium">{t('soilPH')}</span>
+                  </div>
+                  <div className={`text-2xl font-bold ${getPHColor(soilData.ph_level)}`}>
+                    {soilData.ph_level.toFixed(1)}
+                  </div>
+                  <Badge variant={soilData.ph_status === 'neutral' ? 'default' : 'secondary'}>
+                    {soilData.ph_status.toUpperCase()}
+                  </Badge>
+                </div>
+
+                {/* Moisture */}
+                <div className="text-center p-4 border rounded-lg">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <Droplets className="h-5 w-5 text-blue-500" />
+                    <span className="font-medium">{t('soilMoisture')}</span>
+                  </div>
+                  <div className={`text-2xl font-bold ${getMoistureColor(soilData.moisture_level)}`}>
+                    {soilData.moisture_level.toFixed(0)}%
+                  </div>
+                  <Badge variant={soilData.moisture_status === 'optimal' ? 'default' : 'secondary'}>
+                    {soilData.moisture_status.toUpperCase()}
+                  </Badge>
+                </div>
+
+                {/* Temperature */}
+                <div className="text-center p-4 border rounded-lg">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <Thermometer className="h-5 w-5 text-orange-500" />
+                    <span className="font-medium">Temperature</span>
+                  </div>
+                  <div className="text-2xl font-bold text-orange-600">
+                    {soilData.temperature.toFixed(1)}°C
+                  </div>
+                  <Badge variant="outline">Normal</Badge>
+                </div>
+
+                {/* Organic Matter */}
+                <div className="text-center p-4 border rounded-lg">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <Leaf className="h-5 w-5 text-green-500" />
+                    <span className="font-medium">Organic Matter</span>
+                  </div>
+                  <div className="text-2xl font-bold text-green-600">
+                    {soilData.organic_matter.toFixed(1)}%
+                  </div>
+                  <Badge variant="outline">Good</Badge>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Nutrient Levels */}
+          <Card className="border-emerald-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+            <CardHeader>
+              <CardTitle className="text-emerald-900">{t('soilNutrients')}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="space-y-4">
+                {/* Nitrogen */}
+                <div className="flex items-center justify-between">
+                  <span className="font-medium">Nitrogen (N)</span>
+                  <div className="flex items-center gap-2">
+                    <Progress value={(soilData.nitrogen / 50) * 100} className="w-24 h-2" />
+                    <span className="font-bold">{soilData.nitrogen.toFixed(0)} ppm</span>
+                    {React.createElement(
+                      getNutrientStatus(soilData.nitrogen, { min: 20, max: 40 }).icon,
+                      { className: `h-4 w-4 ${getNutrientStatus(soilData.nitrogen, { min: 20, max: 40 }).color}` }
+                    )}
+                  </div>
+                </div>
+
+                {/* Phosphorus */}
+                <div className="flex items-center justify-between">
+                  <span className="font-medium">Phosphorus (P)</span>
+                  <div className="flex items-center gap-2">
+                    <Progress value={(soilData.phosphorus / 40) * 100} className="w-24 h-2" />
+                    <span className="font-bold">{soilData.phosphorus.toFixed(0)} ppm</span>
+                    {React.createElement(
+                      getNutrientStatus(soilData.phosphorus, { min: 15, max: 30 }).icon,
+                      { className: `h-4 w-4 ${getNutrientStatus(soilData.phosphorus, { min: 15, max: 30 }).color}` }
+                    )}
+                  </div>
+                </div>
+
+                {/* Potassium */}
+                <div className="flex items-center justify-between">
+                  <span className="font-medium">Potassium (K)</span>
+                  <div className="flex items-center gap-2">
+                    <Progress value={(soilData.potassium / 300) * 100} className="w-24 h-2" />
+                    <span className="font-bold">{soilData.potassium.toFixed(0)} ppm</span>
+                    {React.createElement(
+                      getNutrientStatus(soilData.potassium, { min: 120, max: 200 }).icon,
+                      { className: `h-4 w-4 ${getNutrientStatus(soilData.potassium, { min: 120, max: 200 }).color}` }
+                    )}
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Recommendations */}
+          <Card className="border-emerald-200 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg">
+            <CardHeader>
+              <CardTitle className="text-emerald-900">{t('soilRecommendations')}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="space-y-4">
+                {soilData.recommendations.map((rec, index) => (
+                  <div key={index} className="flex items-start gap-2">
+                    <CheckCircle className="h-4 w-4 text-green-500 mt-0.5 flex-shrink-0" />
+                    <span className="text-sm">{rec}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <Separator className="my-4" />
+              
+              <div>
+                <h4 className="font-semibold text-emerald-800 mb-2">Suitable Crops for Current Conditions:</h4>
+                <div className="flex flex-wrap gap-2">
+                  {soilData.suitable_crops.map((crop, index) => (
+                    <Badge key={index} variant="outline" className="border-emerald-300">
+                      {crop}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
+              
+              <div className="text-xs text-gray-500 mt-4">
+                Last updated: {new Date(soilData.last_updated).toLocaleString()}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default SoilHealthMonitor;
+<snippet lineStart=1 lineEnd=37 totalLineCount=37>
+
+
+import React, { useState } from 'react';
+import AppHeader from 'components/AppHeader';
+import PriceGuidanceForm from 'components/PriceGuidanceForm';
+import WeatherForecast from 'components/WeatherForecast';
+import SoilHealthMonitor from 'components/SoilHealthMonitor';
+import { useLanguageStore } from 'utils/languageStore';
+
+function App() {
+  const { language } = useLanguageStore();
+  const [location, setLocation] = useState('');
+
+  const handleLocationUpdate = (newLocation: string) => {
+    setLocation(newLocation);
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-emerald-50 to-blue-50">
+      <AppHeader />
+      
+      <main className="container mx-auto px-4 py-8 space-y-8">
+        {/* Price Guidance Section */}
+        <PriceGuidanceForm onLocationChange={handleLocationUpdate} />
+        
+        {/* Weather Forecast Section */}
+        <WeatherForecast language={language} location={location} />
+        
+        {/* Soil Health Monitoring Section */}
+        <SoilHealthMonitor language={language} location={location} />
+      </main>
+    </div>
+  );
+}
+
+export default App;
+
+<snippet lineStart=1 lineEnd=38 totalLineCount=38>
+import React from 'react';
+import { UserButton } from '@stackframe/react';
+import { LanguageSelector } from 'components/LanguageSelector';
+import { Wheat } from 'lucide-react';
+import { useLanguage } from 'utils/languageStore';
+
+const AppHeader: React.FC = () => {
+  const { setLanguage } = useLanguage();
+
+  const handleLanguageChange = (language: string) => {
+    setLanguage(language);
+  };
+
+  return (
+    <header className="border-b border-amber-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="p-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-400">
+              <Wheat className="h-6 w-6 text-white" />
+            </div>
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-700 to-orange-600 bg-clip-text text-transparent">
+              AgriWise
+            </h1>
+          </div>
+          
+          <div className="flex items-center gap-4">
+            <LanguageSelector onLanguageChange={handleLanguageChange} />
+            <UserButton />
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default AppHeader;
